@@ -48,9 +48,6 @@ void MainWindow::on_pb_circle_clicked()
 
 void MainWindow::on_pb_clean_clicked()
 {
-    this->on_pb_startStop_clicked(false);
-    ui->pb_startStop->setChecked(false);
-
     circleCntr = 0;
 
     stpWtch->reset();
